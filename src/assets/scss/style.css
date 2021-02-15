@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat';
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  color: #e61515;
+  font-weight: 900;
+  font-size: 12vw;
+  padding: 5%;
+  letter-spacing: 2px;
+}
+
+.displaySelections {
+  width: 75vw;
+  margin: 0 auto 5%;
+  background-color: #15a2e8;
+  padding: 5% 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.displaySelections p {
+  margin: 0;
+  color: #fff;
+  font-weight: 600;
+  font-size: 4vw;
+}
+
+.formDiv {
+  width: 75vw;
+  margin: 0 auto;
+}
+
+.formDiv .btnGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 3% 0;
+}
+
+.question {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  padding: 3%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.generate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.button {
+  border: none;
+  padding: 1% 5%;
+  background-color: #e61515;
+  color: white;
+}
+
+.button:hover {
+  background-color: #15a2e8;
+}
+
+#reset {
+  background-color: #15a2e8;
+}
+
+.resetBtn {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
