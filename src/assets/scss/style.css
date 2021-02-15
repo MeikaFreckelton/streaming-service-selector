@@ -19,7 +19,7 @@
 .displaySelections {
   width: 75vw;
   margin: 0 auto 5%;
-  background-color: #15a2e8;
+  background-color: #fff;
   padding: 5% 3%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,7 +35,7 @@
 
 .displaySelections p {
   margin: 0;
-  color: #fff;
+  color: #15a2e8;
   font-weight: 600;
   font-size: 4vw;
 }
@@ -85,7 +85,7 @@
   color: white;
 }
 
-.button:hover {
+.button:hover, .button :focus, .button :active {
   background-color: #15a2e8;
 }
 

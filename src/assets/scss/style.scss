@@ -8,6 +8,8 @@
 $red: #e61515;
 $blue: #15a2e8;
 
+// @import './responsive.css';
+
 .heading{
     text-align: center;
     font-family: 'Bebas Neue', sans-serif;
@@ -15,24 +17,21 @@ $blue: #15a2e8;
     font-weight: 900;
     font-size: 12vw;
     padding: 5%;
-    // -webkit-text-stroke: 2px black;
     letter-spacing: 2px;
-    // text-shadow: 3px 3px #000;
 }
 
 
 .displaySelections{
     width: 75vw;
     margin: 0 auto 5%;
-    background-color: $blue;
-    // border: 2px solid $blue;
+    background-color: #fff;
     padding: 5% 3%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     p{
         margin: 0;
-        color: #fff;
+        color: $blue;
         font-weight: 600;
         font-size: 4vw;
     }
@@ -74,7 +73,7 @@ $blue: #15a2e8;
     background-color: $red;
     color: white;
 
-    &:hover{
+    &:hover, :focus, :active{
         background-color: $blue;
     }
 
